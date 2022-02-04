@@ -1,0 +1,43 @@
+.nav_container{
+    display: flex;
+    position: sticky;
+    top: 0;
+
+}
+.nav_left{
+    padding-left: 100px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex:0.6;
+   /* background-color: wheat; */
+}
+
+.nav_left > img{
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.search_box{
+    color: gray;
+    display: flex;
+    width: 500px;
+}
+
+.search_box > input{
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    outline-width: 0;
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+}
+
+
+.nav_right{
+    display: flex;
+    align-items: center;
+
+}
